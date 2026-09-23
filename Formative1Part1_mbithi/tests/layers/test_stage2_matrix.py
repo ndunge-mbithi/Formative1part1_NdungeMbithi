@@ -1,13 +1,5 @@
 """Public Stage 2 checks for ``Linear`` with more than one output neuron.
 
-Chapter 2 adds no code to ``linear.py`` -- ``Linear(n, C)`` already models C
-neurons because it is built from ``in_features`` and ``out_features`` and
-``self.W`` has shape ``(in_features, out_features)``. These checks confirm that,
-in the open. They are a SUBSET; grading also checks per-neuron independence in
-detail, the initialisation scale for ``(n, C)``, weight orientation on
-non-square layers, vectorisation, and aliasing. See the assignment rubric.
-
-Run from the submission root, with the iml-formative1 environment active:
 
     pytest tests/layers/test_stage2_matrix.py -v
     ruff check nn/
