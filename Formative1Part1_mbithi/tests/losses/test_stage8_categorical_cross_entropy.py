@@ -1,7 +1,5 @@
 """Public Stage 8 checks for ``CategoricalCrossEntropyLoss``.
 
-A SUBSET. Grading also runs a full gradient check and the a - y shortcut
-chained through Softmax.backward. See the rubric.
 
     pytest tests/losses/test_stage8_categorical_cross_entropy.py -v
     ruff check nn/
