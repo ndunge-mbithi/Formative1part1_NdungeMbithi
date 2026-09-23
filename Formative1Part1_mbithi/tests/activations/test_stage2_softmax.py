@@ -1,11 +1,5 @@
 """Public Stage 2 checks for ``nn.activations.softmax.Softmax`` (forward only).
 
-A SUBSET. Grading also checks the per-row denominator on a mixed-scale batch,
-shift-invariance, ordering, an exact reference on random logits, aliasing, and
-vectorisation. ``Softmax.backward`` is a later chapter and is not checked here.
-See the assignment rubric.
-
-Run from the submission root, with the iml-formative1 environment active:
 
     pytest tests/activations/test_stage2_softmax.py -v
     ruff check nn/
