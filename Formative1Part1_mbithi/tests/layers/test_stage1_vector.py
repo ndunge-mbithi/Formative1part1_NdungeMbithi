@@ -1,16 +1,5 @@
 """Public Stage 1 checks for ``nn.layers.linear.Linear``.
 
-These cover the parts of the Stage 1 rubric that are verified in the open:
-construction (parameter shapes and dtypes, zero bias, non-trivial weights) and
-the forward pass (output shape and value on the worked examples). They are a
-development aid and a SUBSET. Grading runs additional checks that are not
-distributed -- exact output shape (a one-row input gives a (1, 1) array, not a
-bare float), weight-initialisation scale, weight orientation on non-square
-layers, vectorisation (no Python loops), aliasing, and numerical stability.
-Passing this file is necessary, not sufficient; see the assignment rubric for
-the full list of Stage 1 criteria.
-
-Run from the submission root, with the iml-formative1 environment active:
 
     pytest tests/layers/test_stage1_vector.py -v
     ruff check nn/
