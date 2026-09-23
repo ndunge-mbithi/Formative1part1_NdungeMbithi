@@ -4,8 +4,6 @@
 class Module:
     """Base class every layer and activation subclasses.
 
-    Defines the forward/backward contract, plus default (empty) parameter
-    and gradient-reset behavior for modules that have no learnable weights.
     """
 
     def forward(self, x):
@@ -43,9 +41,5 @@ class Module:
     def zero_grad(self):
         """Reset any stored gradients to zero.
 
-        No-op by default. In this project, resetting stored gradients is
-        handled by the optimizer (Chapter 9) directly, not by individual
-        modules -- you will not need to override this method anywhere,
-        including in Linear.
         """
         pass
