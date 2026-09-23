@@ -1,7 +1,5 @@
 """Public Stage 6 checks for ``nn.losses.cross_entropy_loss.CrossEntropyLoss``.
 
-A SUBSET. Grading also runs a full gradient check on dL/da and the a - y
-shortcut chained through Sigmoid.backward. See the rubric.
 
     pytest tests/losses/test_stage6_cross_entropy.py -v
     ruff check nn/
