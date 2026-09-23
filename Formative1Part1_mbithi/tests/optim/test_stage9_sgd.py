@@ -1,7 +1,5 @@
 """Public Stage 9 checks for ``nn.optim.sgd.SGD``.
 
-A SUBSET. Grading also checks in-place updates, a persistent optimizer across
-training steps, and updating a real Linear layer. See the rubric.
 
     pytest tests/optim/test_stage9_sgd.py -v
     ruff check nn/
