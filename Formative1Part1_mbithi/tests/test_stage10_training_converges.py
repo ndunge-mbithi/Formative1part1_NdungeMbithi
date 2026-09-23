@@ -1,9 +1,5 @@
 """Public Stage 10 checks for ``main.py`` -- the whole pipeline trained.
 
-This is the only test that does not exercise one file in isolation: it runs
-main.train() end to end on the provided toy dataset and asserts the loss
-decreases and the model reaches the accuracy threshold.
-
     pytest tests/test_stage10_training_converges.py -v
     ruff check nn/
     ruff check main.py
