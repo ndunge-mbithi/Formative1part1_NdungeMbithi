@@ -1,8 +1,5 @@
 """Public Stage 7 checks for ``Softmax.backward``.
 
-A SUBSET. Grading also runs the gradient check on more shapes, the
-row-independence check, and aliasing. A batch loop is allowed here; there is
-no no-loop check. See the rubric.
 
     pytest tests/activations/test_stage7_softmax_backward.py -v
     ruff check nn/
