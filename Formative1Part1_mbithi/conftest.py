@@ -3,8 +3,7 @@
 Fixtures for the test suites, plus a summary that tallies results by the
 ``group(letter, title)`` marker on each test and buckets them by the module's
 ``stage(number, title, target, slug=...)`` marker. Prints one block per stage
-and writes ``stage<number>[_<slug>]_report.json`` beside this file. Contains no
-assertions and is not graded.
+and writes ``stage<number>[_<slug>]_report.json``
 """
 
 from __future__ import annotations
