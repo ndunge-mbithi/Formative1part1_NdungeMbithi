@@ -1,7 +1,5 @@
 """Public Stage 5 checks for ``nn.activations.sigmoid.Sigmoid``.
 
-A SUBSET. Grading also runs a full gradient check and the large-magnitude
-stability cases. See the rubric.
 
     pytest tests/activations/test_stage5_sigmoid.py -v
     ruff check nn/
