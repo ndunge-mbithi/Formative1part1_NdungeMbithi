@@ -1,9 +1,6 @@
 """Public Stage 4 checks for ``nn.activations.relu.ReLU``.
 
-A SUBSET. Grading also runs a full gradient check, the boundary convention
-(x == 0 blocked), a batch-matrix mask check, and aliasing. See the rubric.
 
-    pytest tests/activations/test_stage4_relu.py -v
     ruff check nn/
 """
 
