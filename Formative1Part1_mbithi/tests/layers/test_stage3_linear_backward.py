@@ -1,10 +1,5 @@
 """Public Stage 3 checks for ``Linear.backward`` and ``Linear.parameters``.
 
-A SUBSET. Grading also runs a full gradient check on random shapes, the
-batch-sum discriminator (dW/db summed over the batch, dX not), aliasing, and
-vectorisation. See the assignment rubric.
-
-Run from the submission root, with the iml-formative1 environment active:
 
     pytest tests/layers/test_stage3_linear_backward.py -v
     ruff check nn/
